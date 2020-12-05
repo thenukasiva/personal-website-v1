@@ -1,2 +1,2 @@
-# portfolio site
+# personal website
 under maintenance :)
