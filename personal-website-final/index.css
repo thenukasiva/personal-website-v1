@@ -225,7 +225,7 @@ body {
 }
 .btn_one:hover {
     cursor:pointer;
-    color:rgb(255, 50, 50);
+    color:#2A324B;
     background:#fff;
 }
 .btn_two {

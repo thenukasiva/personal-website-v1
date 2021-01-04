@@ -86,12 +86,14 @@
             <h1>contact.</h1>
             <section>
                 <h2>contact me</h2>
-                <p>
-                    <form>
-                        <input type="text" placeholder="name" required>
-                        <input type="email" placeholder="email" required><br>
-                        <textarea placeholder="your message" required rows="5"></textarea><br>
-                        <button class="btn_one">send</button>
+                <p> feel free to contact me through <a href="mailto: thenukasiva@yahoo.com">email</a>, through <a href="https://www.linkedin.com/thenukasiva">linkedin</a>
+                    or fill out the following form! 
+                    looking forward to hearing from you :)
+                    <form action="https://formspree.io/f/xpzokawd" method="POST">
+                        <input type="text" name="name" placeholder="name" required>
+                        <input type="email" name="_replyto" placeholder="email" required><br>
+                        <textarea placeholder="your message" name="message"required rows="5"></textarea><br>
+                        <button class="btn_one" type="submit">send</button>
                     </form> 
                 </p>
             </section>
@@ -102,5 +104,7 @@
     <script src="index.js" type="text/javascript"></script>
     <script src="particles.js"></script>
     <script src="app.js"></script>
+
+    
 </body>
 </html>
