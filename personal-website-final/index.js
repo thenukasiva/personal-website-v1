@@ -40,6 +40,7 @@ function closecontact(){
         $("#contact_container").css("display","none");
     },800);
 }
+
 setTimeout(function(){
     $("#loading").addClass("animated fadeOut");
     setTimeout(function(){
