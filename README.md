@@ -1,2 +1,4 @@
 # personal website
-under maintenance :)
+
+a little bit about me, my passions, my experiences and projects.
+
