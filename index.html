@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="images/T.png" type="image/icon type">
+    <title>Thenuka Siva</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;600;700&display=swap"
+        rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+    <div id="particles-js"></div>
+    <div id="box">
+        <div class="box1 onlywide animated bounceOutLeft" style="animation-delay:1.7s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.8s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.9s;"></div>
+        <div class="box2 animated bounceOutRight" style="animation-delay:1.9s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.8s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.7s;"></div>
+    </div>
+    <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay:2.2s;">about</a>
+    <a id="work" onclick="showwork()" class="animated fadeIn" style="animation-delay:2.2s;">work</a>
+    <a id="contact" onclick="showcontact()" class="animated fadeIn" style="animation-delay:2.2s;">contact</a>
+    <div id="middle" class="animated slideInDown" style="animation-delay:2.0s;">
+        <h1>Hello, I'm Thenuka!👋</h1>
+        <h2>📚 1B CS & BBA Student @ University of Waterloo</h2>
+        <h2>🖥️ Interested in Software Development</h2>
+        <h2>📍Ottawa, Ontario</h2>
+
+        <div id="menu">
+            <a onclick="showabout()">about</a>
+            <a onclick="showwork()">work</a>
+            <a onclick="showcontact()">contact</a>
+        </div>
+        <table>
+                <tr>
+                    <td class="animated zoomIn" style="animation-delay:2.2s;"><a class="social" href="https://www.linkedin.com/in/thenukasiva" target="_blank"><i class="fab fa-linkedin"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.4s;"><a class="social" href="https://www.github.com/thenukasiva" target="_blank"><i class="fab fa-github"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.6s;"><a class="social" href="mailto: thenukasiva@yahoo.com"><i class="far fa-envelope"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.8s;"><a class="social" href="https://drive.google.com/file/d/1rZNiT7evlQxR__cE2f82s-6g_Hl3UVJo/view?usp=sharing" target="_blank"><i class="far fa-file"></i></a></td>
+                </tr>
+        </table>
+    </div>
+    <div id="work_container" class="container">
+        <div onclick="closework()"><i class="fas fa-angle-right"></i></div>
+        
+        <section>
+            <h1>💻Experience</h1>
+            <h2>Google - CSSI Student: June 2020</style><td class="animated zoomIn" style="animation-delay:2.4s;"><a class="social" href="https://github.com/thenukasiva/cssi-final-project" target="_blank"><i class="fab fa-github"></i></a></td></h2></h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <div id="used">
+                <div><i class="fas fa-circle" style="color:red;"></i>&nbsp;HTML5</div>
+                <div><i class="fas fa-circle" style="color:yellow;"></i>&nbsp;CSS3</div>
+                <div><i class="fas fa-circle" style="color:orange;"></i>&nbsp;Javascript</div>
+            </div>
+        </section>
+        <section>
+            <h2>Nokia - Software Developer Intern / Future Tech Intern: July - August 2019 </h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <div id="used">
+                <div><i class="fas fa-circle" style="color:green;"></i>&nbsp;Java</div>
+                <div><i class="fas fa-circle" style="color:blue;"></i>&nbsp;Python</div>
+            </div>
+        </section>
+        <section>
+            <h2>Digitera - Full Stack Developer: July 2018 </h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <div id="used">
+                <div><i class="fas fa-circle" style="color:red;"></i>&nbsp;HTML5</div>
+                <div><i class="fas fa-circle" style="color:yellow;"></i>&nbsp;CSS3</div>
+                <div><i class="fas fa-circle" style="color:orange;"></i>&nbsp;Javascript</div>
+            </div>
+        </section>
+        
+       
+        <section>
+            <a id="projects"><h1>⚙️Projects</h1> </a>
+            <h2>My Personal Website <td class="animated zoomIn" style="animation-delay:2.4s;"><a class="social" href="https://github.com/thenukasiva/personal-website" target="_blank"><i class="fab fa-github"></i></a></td></h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <div id="used">
+                <div><i class="fas fa-circle" style="color:red;"></i>&nbsp;HTML5</div>
+                <div><i class="fas fa-circle" style="color:yellow;"></i>&nbsp;CSS3</div>
+                <div><i class="fas fa-circle" style="color:orange;"></i>&nbsp;Javascript</div>
+                <div><i class="fas fa-circle" style="color:pink;"></i>&nbsp;JQuery</div>
+            </div>
+        </section>
+        <section>
+            <h2>Note-taking Chrome Extension <td class="animated zoomIn" style="animation-delay:2.4s;"><a class="social" href="https://github.com/thenukasiva/quick-notes-chrome-extension" target="_blank"><i class="fab fa-github"></i></a></td></h2></h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <div id="used">
+                <div><i class="fas fa-circle" style="color:red;"></i>&nbsp;HTML5</div>
+                <div><i class="fas fa-circle" style="color:yellow;"></i>&nbsp;CSS3</div>
+                <div><i class="fas fa-circle" style="color:orange;"></i>&nbsp;Javascript</div>
+            </div>
+        </section>
+        <section>
+            <h2>Connect-4 Using Pygame <td class="animated zoomIn" style="animation-delay:2.4s;"><a class="social" href="https://github.com/thenukasiva/connect-4-pygame" target="_blank"><i class="fab fa-github"></i></a></td></h2></h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <div id="used">
+                <div><i class="fas fa-circle" style="color:blue;"></i>&nbsp;Python</div>
+            </div>
+        </section>
+        <section>
+            <h2>Self-Reflect Chrome Extension <td class="animated zoomIn" style="animation-delay:2.4s;"><a class="social" href="https://github.com/thenukasiva/self-reflect" target="_blank"><i class="fab fa-github"></i></a></td></h2></h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <div id="used">
+                <div><i class="fas fa-circle" style="color:red;"></i>&nbsp;HTML5</div>
+                <div><i class="fas fa-circle" style="color:yellow;"></i>&nbsp;CSS3</div>
+                <div><i class="fas fa-circle" style="color:orange;"></i>&nbsp;Javascript</div>
+                <div><i class="fas fa-circle" style="color:maroon;"></i>&nbsp;React</div>
+            </div>
+        </section>
+        <section>
+            <h2>Spotify API Mini-Projects <td class="animated zoomIn" style="animation-delay:2.4s;"><a class="social" href="https://github.com/thenukasiva/exploring-spotify-apis" target="_blank"><i class="fab fa-github"></i></a></td></h2></h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <div id="used">
+                <div><i class="fas fa-circle" style="color:blue;"></i>&nbsp;Python</div>
+            </div>
+        </section>
+        <i class="fas fa-angle-"></i>
+        <div id="footer_rest">
+            Made with ❤️ 
+            and ☕
+       </div>
+    </div>
+    <div id="about_container" class="container">
+            <div onclick="closeabout()"><i class="fas fa-angle-left"></i></div>
+            <section>
+                <h1>👩🏾‍💻About Me</h1>
+                <div style="display:flex">
+                <p style="flex:1 1 auto">
+                    
+                    I'm a 1B Student studying Computer Science at University of Waterloo and Business Administration at Wilfrid Laurier University.
+                    I am passionate about learning innovative technologies and making projects that can impact and help others. 
+                    <br><br>
+                    When I'm not busy coding or completing schoolwork, I enjoy cooking new dishes, learning new instruments, doing yoga and making spotify playlists! 
+                    <br><br>
+                    Aside from my coding experience, I have diverse range of leadership and volunteer experiences that have helped me grow into the person I am today.
+                    In the past, I was the Co-President of my high school's Amnesty International Club and the Marketing Chair at Sustainable Youth Ottawa where I led and executed events 
+                    that directly gave back to the community. 
+                    <br><br>
+                    I am always looking for opportunities that will help me expand my toolbox of technical skills and challenge me to explore new ideas. 
+                </p>
+                    <img src="images/me.jpg" alt="" id="profile" style="object-fit: contain;align-self: flex-start;">
+                </div>
+            </section>
+            <div id="footer_rest">
+                Made with ❤️ 
+                and ☕
+           </div>
+            
+        </div>
+          <div id="contact_container" class="container">
+            <div onclick="closecontact()"><i class="fas fa-angle-down"></i></div>
+            <section></section>
+            <h1>📞Contact Me</h1>
+            
+                <p> Feel free to contact me through <a href="mailto: thenukasiva@yahoo.com" style="color:#767B91;">email</a>, through <a href="https://www.linkedin.com/in/thenukasiva" target="_blank" style="color:#767B91;" >linkedin</a>
+                    or fill out the following form! 
+                    Looking forward to hearing from you :)
+                    <form action="https://formspree.io/f/xpzokawd" method="POST">
+                        <input type="text" name="name" placeholder="name" required>
+                        <input type="email" name="_replyto" placeholder="email" required><br>
+                        <textarea placeholder="your message" name="message"required rows="5"></textarea><br>
+                        <button class="btn_one" type="submit">send</button>
+                    </form> 
+                </p>
+            </section>
+            <div id="footer_rest">
+                Made with ❤️ 
+                and ☕
+           </div>
+        </div>
+        <div id="footer">
+             Made with ❤️ 
+             and ☕
+        </div>
+    <script src="index.js" type="text/javascript"></script>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+
+    
+</body>
+</html>
