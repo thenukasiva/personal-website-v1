@@ -75,17 +75,12 @@ body {
     z-index:1;
     color:#fff;
     padding-bottom:10vh;
-    align-self: center;
 }
 
 #middle h1 {
     color:#2A324B;
     font-size:70px;
-}
-#middle h3{
-    color:#2A324B;
-    font-size:25px;
-    align-content: flex-start;
+    text-decoration:underline;
 }
 #about {
     width:10vw;
@@ -94,7 +89,7 @@ body {
     font-size:25px;
     transform:rotate(-90deg);
     background:transparent;
-    color:#fff;
+    color: #2A324B;
     position:fixed;
     left:0;
     bottom:40vh;
@@ -112,7 +107,7 @@ body {
     font-size:25px;
     transform:rotate(90deg);
     background:transparent;
-    color:#fff;
+    color:#2A324B;
     position:fixed;
     right:0;
     bottom:40vh;
@@ -129,7 +124,7 @@ body {
     text-align:center;
     font-size:25px;
     background:transparent;
-    color:#fff;
+    color:#2A324B;
     position:fixed;
     bottom:0;
     left:45vw;
@@ -141,15 +136,15 @@ body {
     border-radius:100px 100px 0px 0px;
 }
 #about:hover {
-    background:#767B91;
+    background:#fff;
     cursor:pointer;
 }
 #work:hover {
-    background:#767B91;
+    background:#fff;
     cursor:pointer;
 }
 #contact:hover {
-    background:#767B91;
+    background:#fff;
     cursor:pointer;
 }
 #middle table {
@@ -316,6 +311,9 @@ body {
     border-radius: 50%;  
 }
 
+ul{
+    font-size:20px;
+}
 
 #particles-js {
     position:fixed;
