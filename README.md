@@ -2,7 +2,7 @@
 
 A little bit about me, my experiences and projects.
 
-Visit at: thenukasiva.github.io
+Visit at: [Personal Website](https://www.thenukasiva.github.io)
 
 I made this project to further explore web development and expand my creativity! I used HTML, CSS, some Javascript and a bit of JQuery. 
 
