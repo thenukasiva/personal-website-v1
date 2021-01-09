@@ -1,4 +1,4 @@
-# Personal website
+# 👩🏾‍💻Personal website
 
 a little bit about me, my passions, my experiences and projects.
 
