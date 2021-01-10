@@ -76,7 +76,6 @@ body {
     color:#fff;
     padding-bottom:10vh;
 }
-
 #middle h1 {
     color:#2A324B;
     font-size:70px;
@@ -296,7 +295,6 @@ body {
 #footer a {
     color:#2A324B;
 }
-
 #footer_rest{
     color:#fff;
     width:92vw;
@@ -304,13 +302,11 @@ body {
     font-size:16px;
     font-weight:bold;
 }
-
 #profile{
     width: 30%;
     height: 30%;
     border-radius: 50%;  
 }
-
 ul{
     font-size:20px;
 }
@@ -337,7 +333,6 @@ ul{
 	color: #fff;
 	background:#C7CCDB;
 }
-
 
 @media (max-width: 800px){ 
     #about {
