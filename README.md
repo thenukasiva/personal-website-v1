@@ -1,6 +1,6 @@
 # 👩🏾‍💻Personal website
 
-A little bit about me, my experiences and projects.
+About me, my experiences and projects.
 
 Visit at: https://thenukasiva.github.io
 
